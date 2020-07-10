@@ -188,6 +188,7 @@ body {
   pointer-events: none;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
+  flex-direction: row;
 }
 .el.s--active .el__content {
   z-index: 2;
@@ -519,6 +520,33 @@ body {
 .icon-link--twitter {
   left: auto;
   right: 5px;
+}
+.skills-header {
+  color: #fff;
+  position: relative;
+  font-size: 20px;
+}
+.expskills-container {
+  display: flex;
+  justify-content: left;
+}
+#wordcloud {
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  position: relative;
+}
+img.scaled {
+  width: 100%;
+}
+figcaption#wordcloud-text {
+  color: white;
+}
+.techskills-container {
+  display: flex;
+  justify-content: center;
 }
 .skills-list > li {
     display: inline-block;
